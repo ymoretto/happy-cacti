@@ -1,7 +1,5 @@
 <template>
     <div class="canvas">
-
-        <p>this is the game's canvas</p>
         
     </div>
 </template>
@@ -14,7 +12,6 @@ export default {
 
 <style scoped>
 .canvas{
-    background-color: blue;
     height: calc(100vh - 70px);
 }
 </style>
