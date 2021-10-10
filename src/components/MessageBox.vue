@@ -12,6 +12,9 @@ export default {
 
 <style scoped>
 .message-box{
+    /* GRID <row-start> / <column-start> / <row-end> / <column-end> */
+    grid-area: 1 / 1 / 3 / 5;
+
     background-color: yellow;
 }
 </style>

@@ -13,7 +13,7 @@ export default {
 <style scoped>
 .actions-menu {
     /* GRID <row-start> / <column-start> / <row-end> / <column-end> */
-    grid-area: 2 / 5 / 7 / 7;
+    grid-area: 1 / 5 / 7 / 7;
 
     background-color: gray;
 }
