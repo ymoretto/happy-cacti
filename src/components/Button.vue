@@ -1,12 +1,16 @@
 <template>
     <div class="button">
-        <button>this is a button</button>
+        <button>{{message}}</button>
     </div>
 </template>
 
 <script>
 export default {
     name: "Button",
+
+    props: {
+        message: String,
+    }
 }
 </script>
 
