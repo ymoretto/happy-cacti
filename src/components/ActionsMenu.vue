@@ -33,14 +33,14 @@ export default {
 .actions-menu {
     /* GRID <row-start> / <column-start> / <row-end> / <column-end> */
     grid-area: 1 / 5 / 7 / 7;
-
+    border: 5px solid gray;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .btn-wrapper{
-    background-color: gray;
+    display: flex;
+    flex-direction: column;
 }
 </style>
