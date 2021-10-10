@@ -6,6 +6,8 @@
             <img src="@/assets/cacto-nav.svg" alt="">
             <div>Plants: {{plants}} / 12 </div>
             <img src="@/assets/cacto-nav.svg" alt="">
+            <div>Actions: {{actions}} / 3 </div>
+            <img src="@/assets/cacto-nav.svg" alt="">
             <div>Restart Btn</div>
     </div>
 </template>
@@ -17,6 +19,7 @@ export default {
     data: () => ({
         daysTime: 1,
         plants: 1,
+        actions: 3,
     })
 }
 </script>
